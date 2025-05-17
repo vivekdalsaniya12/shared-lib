@@ -1,3 +1,3 @@
-def call(Map x){
-  git branch: x.branch , url: x.url
+def call(String branch, String url){
+  git branch: branch , url: url
 }
